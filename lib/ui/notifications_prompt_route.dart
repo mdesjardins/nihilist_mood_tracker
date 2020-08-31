@@ -90,4 +90,15 @@ class NotificationsPromptRoute extends StatelessWidget {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     await prefs.setBool("notifications", enable);
   }
+
+//  void _requestIOSPermissions() {
+//    flutterLocalNotificationsPlugin
+//        .resolvePlatformSpecificImplementation<
+//        IOSFlutterLocalNotificationsPlugin>()
+//        ?.requestPermissions(
+//      alert: true,
+//      badge: true,
+//      sound: true,
+//    );
+//  }
 }

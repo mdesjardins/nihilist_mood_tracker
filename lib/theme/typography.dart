@@ -32,6 +32,6 @@ var textTheme = TextTheme(
     fontStyle: FontStyle.normal,
   ),
   button: GoogleFonts.specialElite(
-    fontSize: 24.0,
+    fontSize: 20.0,
   )
 );
